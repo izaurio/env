@@ -26,6 +26,7 @@ Plugin 'tpope/vim-haml'
 Plugin 'slim-template/vim-slim.git'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'scrooloose/nerdtree'
+Plugin 'Shougo/neocomplcache'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
@@ -79,4 +80,11 @@ nmap <leader>ne :NERDTree<cr>
 
 set wildmode=longest,list,full
 set wildmenu
+
+" vim-go
+let g:go_fmt_command = "goimports"
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+let g:go_snippet_engine = "neosnippet"
 
