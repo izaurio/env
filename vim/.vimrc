@@ -68,10 +68,10 @@ hi SignColumn ctermbg=Black
 hi Pmenu ctermbg=DarkBlue
 
 " Whitespaces
-"set list                " show special characters
-"set listchars=tab:▸\ ,trail:·,nbsp:·
+set list                " show special characters
+set listchars=tab:▸\ ,trail:·,nbsp:·
 
-"Invisible character colors 
+"Invisible character colors
 highlight NonText guibg=bg guifg=DarkGray ctermfg=8
 highlight SpecialKey guibg=bg guifg=DarkGrey ctermfg=8
 
