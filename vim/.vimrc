@@ -76,7 +76,8 @@ highlight NonText guibg=bg guifg=DarkGray ctermfg=8
 highlight SpecialKey guibg=bg guifg=DarkGrey ctermfg=8
 
 " Show NERDTree
-nmap <leader>ne :NERDTree<cr>
+" nmap <leader>ne :NERDTree<cr>
+nmap <C-E> :NERDTreeToggle<cr>
 
 set wildmode=longest,list,full
 set wildmenu
@@ -91,5 +92,5 @@ let g:go_snippet_engine = "neosnippet"
 " markdown
 let g:vim_markdown_folding_disabled=1
 
-source ~/env/vim/modules/netrw.vim
+" source ~/env/vim/modules/netrw.vim
 
