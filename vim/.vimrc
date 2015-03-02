@@ -76,8 +76,8 @@ highlight NonText guibg=bg guifg=DarkGray ctermfg=8
 highlight SpecialKey guibg=bg guifg=DarkGrey ctermfg=8
 
 " Show NERDTree
-" nmap <leader>ne :NERDTree<cr>
-nmap <C-E> :NERDTreeToggle<cr>
+nmap <leader>ne :NERDTreeToggle<cr>
+"nmap <C-E> :NERDTreeToggle<cr>
 
 set wildmode=longest,list,full
 set wildmenu
