@@ -93,7 +93,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # path for rbenv
 export PATH=~/.rbenv/bin:$PATH
 # brew install curl-ca-bundle
-export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
+#export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
 
 # go
 export GOPATH=/Users/zaur/golib
