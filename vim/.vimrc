@@ -68,7 +68,7 @@ map <ScrollWheelDown> <C-E>
 "hi Pmenu ctermbg=DarkBlue
 
 " Whitespaces
-set list                " show special characters
+"set list                " show special characters
 set listchars=tab:▸\ ,trail:·,nbsp:·
 
 "Invisible character colors
