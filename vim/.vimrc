@@ -52,7 +52,7 @@ set number
 set backspace=indent,eol,start
 
 set term=xterm-256color
-colorscheme codeschool
+colorscheme colorsbox-stnight
 filetype plugin on
 set clipboard=unnamed
 
@@ -63,9 +63,9 @@ set mouse=a
 map <ScrollWheelUp> <C-Y>
 map <ScrollWheelDown> <C-E>
 
-colorscheme grb256
-hi SignColumn ctermbg=Black
-hi Pmenu ctermbg=DarkBlue
+"colorscheme grb256
+"hi SignColumn ctermbg=Black
+"hi Pmenu ctermbg=DarkBlue
 
 " Whitespaces
 set list                " show special characters
