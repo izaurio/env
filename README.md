@@ -1,5 +1,12 @@
 # Setup environment
 
+## Setup $ZDOTDIR
+
+```sh
+➜  ~  cat > .zshenv
+ZDOTDIR=$HOME/env/zdotdir
+```
+
 ## Git
 
 ```

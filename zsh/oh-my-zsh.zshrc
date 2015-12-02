@@ -117,6 +117,7 @@ alias redis.start="redis-server /usr/local/etc/redis.conf"
 alias recreate="rake db:drop && rake db:create && rake db:migrate && rake db:test:prepare"
 alias pg.start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
 alias pg.stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
+alias flushdns="sudo discoveryutil udnsflushcaches"
 
 export TERM=xterm-256color
 
