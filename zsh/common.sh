@@ -44,5 +44,5 @@ alias pg.start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/ser
 alias pg.stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
 alias flushdns="sudo discoveryutil udnsflushcaches"
 
-export TERM=xterm-256color
+#export TERM=xterm-256color
 
