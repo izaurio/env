@@ -26,8 +26,8 @@ export PATH=$PATH:$GOPATH/bin
 
 
 # nodejs
-#export PATH=/usr/local/share/npm/bin:$PATH
-#export PATH=/usr/local/lib/node_modules:$PATH
+export PATH=/usr/local/share/npm/bin:$PATH
+export PATH=/usr/local/lib/node_modules:$PATH
 
 # perlbrew
 # source ~/perl5/perlbrew/etc/bashrc
@@ -39,6 +39,7 @@ export LC_ALL="en_US.UTF-8"
 
 alias mongo.start="mongod run --config /usr/local/etc/mongod.conf"
 alias redis.start="redis-server /usr/local/etc/redis.conf"
+alias redis.stop="redis-cli shutdown"
 alias recreate="rake db:drop && rake db:create && rake db:migrate && rake db:test:prepare"
 alias pg.start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
 alias pg.stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
