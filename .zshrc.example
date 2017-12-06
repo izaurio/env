@@ -14,7 +14,7 @@ source $HOME/env/zsh-lib/themes/gister.sh
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
-export BUNDLE_GITHUB__COM=dd93bda81dfd5e2b3bca42a46453fd46e28bb780:x-oauth-basic
+export BUNDLE_GITHUB__COM=FOOBAR:x-oauth-basic
 
 export PATH="/usr/local/opt/node@6/bin:$PATH"
 
