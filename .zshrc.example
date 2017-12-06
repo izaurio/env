@@ -1,0 +1,23 @@
+source $HOME/env/zsh-lib/path.sh
+
+source $HOME/env/antigen/antigen.zsh
+
+antigen use oh-my-zsh
+
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+antigen apply
+
+source $HOME/env/zsh-lib/themes/gister.sh
+
+#export GO15VENDOREXPERIMENT=1
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+export BUNDLE_GITHUB__COM=dd93bda81dfd5e2b3bca42a46453fd46e28bb780:x-oauth-basic
+
+export PATH="/usr/local/opt/node@6/bin:$PATH"
+
+#export JAVA_HOME=`/usr/libexec/java_home -v 1.9`
+export PATH=${JAVA_HOME}/bin:$PATH
+
