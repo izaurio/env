@@ -14,9 +14,9 @@ export PATH=~/bin:/usr/local/bin:/usr/local/sbin:$PATH
 # To use Homebrew's directories rather than ~/.rbenv add to your profile:
 # export RBENV_ROOT=/usr/local/var/rbenv
 #To enable shims and autocompletion add to your profile:
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+#if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # path for rbenv
-export PATH=~/.rbenv/bin:$PATH
+#export PATH=~/.rbenv/bin:$PATH
 # brew install curl-ca-bundle
 #export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
 

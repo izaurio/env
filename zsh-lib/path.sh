@@ -22,6 +22,10 @@ export PATH=$PATH:$GOPATH/bin
 # perlbrew
 # source ~/perl5/perlbrew/etc/bashrc
 
+# plenv
+if which plenv > /dev/null; then eval "$(plenv init - zsh)"; fi
+export PATH="$HOME/.plenv/bin:$PATH"
+
 export LANG="en_US.UTF-8"
 export LC_CTYPE="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
