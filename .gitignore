@@ -1,3 +1,2 @@
 *.swp
-zdotdir/.zcompdump*
-.zprezto/**/.git
+.DS_Store
