@@ -11,3 +11,11 @@ git config --global core.editor vim
 ## Pure zsh promt
 
 https://github.com/sindresorhus/pure
+
+If trouble
+```
+$ cd /usr/local/share/
+$ sudo chmod -R 755 zsh
+$ sudo chown -R root:staff zsh
+$ compaudit | xargs chmod g-w
+```

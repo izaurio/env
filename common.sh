@@ -53,6 +53,15 @@ export LC_ALL="en_US.UTF-8"
 # theme
 export TERM=xterm-256color
 
+# pure zsh promt
+autoload -U promptinit; promptinit
+prompt pure
+
+# zsh completions
+fpath=(/usr/local/share/zsh-completions $fpath)
+autoload -U compinit
+compinit
+
 # aliases
 alias redis.start="redis-server /usr/local/etc/redis.conf"
 alias redis.stop="redis-cli shutdown"
