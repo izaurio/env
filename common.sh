@@ -59,3 +59,10 @@ alias redis.stop="redis-cli shutdown"
 alias pg.start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
 alias pg.stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
 alias flushdns="sudo discoveryutil udnsflushcaches"
+
+# key bindings
+bindkey "[D" backward-word
+bindkey "[C" forward-word
+bindkey "^[a" beginning-of-line
+bindkey "^[e" end-of-line
+
