@@ -8,3 +8,6 @@ git config --global user.email i@zaur.io
 git config --global core.editor vim
 ```
 
+## Pure zsh promt
+
+https://github.com/sindresorhus/pure
